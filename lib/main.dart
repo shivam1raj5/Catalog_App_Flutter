@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Homepage.dart';
+import 'Pages/Homepage.dart';
 
 void main() {
   runApp(Myapp());
@@ -11,6 +11,10 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Homepage(),
+      themeMode: ThemeMode.dark,
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+      ),
     );
   }
 }
