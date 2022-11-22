@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Pages/login.dart';
-
+import 'Pages/check_image.dart';
 import 'Pages/Homepage.dart';
 
 void main() {
@@ -18,7 +18,8 @@ class Myapp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       routes: {
-        "/": (context) => Homepage(),
+        "/": (context) => CheckImg(),
+        "/login": (context) => Login(),
       },
     );
   }
