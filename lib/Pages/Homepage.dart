@@ -5,8 +5,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("First Application")),
+      appBar: AppBar(title: Text("First Application")),
       body: Center(
         child: Container(
           child: Text("Age of Shivam is $age"),
