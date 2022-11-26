@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Pages/login.dart';
-import 'Pages/check_image.dart';
-import 'Pages/Homepage.dart';
+import 'package:flutter_application_1/Pages/check_font.dart';
+import 'package:flutter_application_1/utils/routes.dart';
+import 'Pages/login.dart';
+import 'Pages/homepage.dart';
 
 void main() {
   runApp(Myapp());
@@ -18,8 +19,9 @@ class Myapp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       routes: {
-        "/": (context) => CheckImg(),
-        "/login": (context) => Login(),
+        "/": (context) => login(),
+        MyRoutes.homeRoute: (context) => homepage(),
+        MyRoutes.loginRoutes: (context) => login(),
       },
     );
   }
