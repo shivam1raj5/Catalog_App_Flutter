@@ -5,7 +5,7 @@ class homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("First Application")),
+      appBar: AppBar(title: const Text("First Application")),
       body: Center(
         child: Column(
           children: [
@@ -15,7 +15,7 @@ class homepage extends StatelessWidget {
               height: 500,
               width: 1000,
             ),
-            Text(
+            const Text(
               "This is a Home Page of Shivam's Application",
               style: TextStyle(
                 color: Colors.blue,

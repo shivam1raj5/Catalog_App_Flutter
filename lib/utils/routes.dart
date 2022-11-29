@@ -1,4 +1,5 @@
 class MyRoutes {
-  static String loginRoutes = "/login";
-  static String homeRoute = "/home";
+  static String loginRoutes_1 = "/login_StatelessWidget";
+  static String homeRoute = "/homepage";
+  static String loginRoutes_2 = "/login_StatefullWidget";
 }

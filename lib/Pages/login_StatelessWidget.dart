@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/routes.dart';
 
-class login extends StatelessWidget {
+class login_StatelessWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -14,17 +14,17 @@ class login extends StatelessWidget {
             height: 500,
             width: 1000,
           ),
-          SizedBox(
+          const SizedBox(
             height: 30.0,
           ),
-          Text(
+          const Text(
             "Welcome",
             style: TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.bold,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 20.0,
           ),
           Padding(
@@ -33,27 +33,27 @@ class login extends StatelessWidget {
             child: Column(
               children: [
                 TextFormField(
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     hintText: "Enter UserName",
                     labelText: "User Name",
                   ),
                 ),
                 TextFormField(
                   obscureText: true,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     hintText: "Enter Password",
                     labelText: "Password",
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 30,
                 ),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, MyRoutes.homeRoute);
                   },
-                  child: Text("Login"),
                   style: TextButton.styleFrom(),
+                  child: const Text("Login"),
                 )
               ],
             ),

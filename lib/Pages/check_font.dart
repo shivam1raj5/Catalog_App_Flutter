@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class check_font extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return const Material(
       child: Center(
         child: Text(
           "Login Page",

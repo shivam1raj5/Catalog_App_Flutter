@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Pages/check_font.dart';
 import 'package:flutter_application_1/utils/routes.dart';
-import 'Pages/login.dart';
+import 'Pages/login_StatelessWidget.dart';
+import 'Pages/login_StatefullWidget.dart';
 import 'Pages/homepage.dart';
 
 void main() {
@@ -19,9 +19,10 @@ class Myapp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       routes: {
-        "/": (context) => login(),
+        "/": (context) => login_StatefullWidget(),
         MyRoutes.homeRoute: (context) => homepage(),
-        MyRoutes.loginRoutes: (context) => login(),
+        MyRoutes.loginRoutes_2: (context) => login_StatefullWidget(),
+        MyRoutes.loginRoutes_1: (context) => login_StatelessWidget(),
       },
     );
   }
