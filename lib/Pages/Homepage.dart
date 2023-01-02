@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/drawer.dart';
+
 class homepage extends StatelessWidget {
   final int age = 20;
   @override
@@ -27,7 +29,7 @@ class homepage extends StatelessWidget {
           ],
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
