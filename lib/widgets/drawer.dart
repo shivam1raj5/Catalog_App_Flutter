@@ -58,6 +58,17 @@ class MyDrawer extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
               ),
             ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.bell_fill,
+                color: Colors.white,
+              ),
+              title: Text(
+                "Notification",
+                textScaleFactor: 1.4,
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
           ],
         ),
       ),
