@@ -19,9 +19,9 @@ class Myapp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       routes: {
-        "/": (context) => login_StatefullWidget(),
-        MyRoutes.homeRoute: (context) => homepage(),
-        MyRoutes.loginRoutes_2: (context) => login_StatefullWidget(),
+        "/": (context) => homepage(),
+        MyRoutes.homeRoute: (context) => login_StatefullWidget(),
+        MyRoutes.loginRoutes_2: (context) => homepage(),
         MyRoutes.loginRoutes_1: (context) => login_StatelessWidget(),
       },
     );
