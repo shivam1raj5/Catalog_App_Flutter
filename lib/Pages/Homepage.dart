@@ -7,7 +7,7 @@ class homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("First Application")),
+      appBar: AppBar(title: const Text("CATALOG  APPLICATION")),
       body: Center(
         child: Column(
           children: [
