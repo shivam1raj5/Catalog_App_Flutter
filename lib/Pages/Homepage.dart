@@ -20,7 +20,7 @@ class homepage extends StatelessWidget {
             const Text(
               "This is a Home Page of Shivam's Application",
               style: TextStyle(
-                color: Colors.blue,
+                color: Color.fromARGB(255, 16, 39, 57),
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),
