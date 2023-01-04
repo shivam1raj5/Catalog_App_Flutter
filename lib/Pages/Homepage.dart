@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Models/catalog.dart';
+import '../widgets/ItemWidget.dart';
 import '../widgets/drawer.dart';
 
 class homepage extends StatelessWidget {
@@ -8,7 +10,18 @@ class homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("CATALOG  APPLICATION")),
-      body: Center(
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: CatalogModel.items.length,
+          itemBuilder: (context, index) {
+            return ItemWidget(
+              item: CatalogModel.items[index],
+            );
+          },
+        ),
+      ),
+      /*Center(
         child: Column(
           children: [
             Image.asset(
@@ -28,7 +41,7 @@ class homepage extends StatelessWidget {
             ),
           ],
         ),
-      ),
+      ),*/
       drawer: MyDrawer(),
     );
   }
