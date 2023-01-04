@@ -1,14 +1,28 @@
 import 'package:flutter/material.dart';
 
+import '../Models/catalog.dart';
+import '../widgets/ItemWidget.dart';
 import '../widgets/drawer.dart';
 
 class homepage extends StatelessWidget {
   final int age = 20;
   @override
   Widget build(BuildContext context) {
+    final dummyList = List.generate(50, (index) => CatalogModel.items[0]);
     return Scaffold(
-      appBar: AppBar(title: const Text("First Application")),
-      body: Center(
+      appBar: AppBar(title: const Text("CATALOG  APPLICATION")),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: dummyList.length,
+          itemBuilder: (context, index) {
+            return ItemWidget(
+              item: dummyList[index],
+            );
+          },
+        ),
+      ),
+      /*Center(
         child: Column(
           children: [
             Image.asset(
@@ -20,7 +34,7 @@ class homepage extends StatelessWidget {
             const Text(
               "This is a Home Page of Shivam's Application",
               style: TextStyle(
-                color: Colors.blue,
+                color: Color.fromARGB(255, 16, 39, 57),
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),
@@ -28,7 +42,7 @@ class homepage extends StatelessWidget {
             ),
           ],
         ),
-      ),
+      ),*/
       drawer: MyDrawer(),
     );
   }
