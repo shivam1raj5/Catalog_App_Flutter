@@ -1,7 +1,7 @@
 class CatalogModel {
   static final items = [
     Item(
-      id: 01,
+      id: 1,
       name: "iphone",
       desc: "Apple iphone 14",
       price: 900,
@@ -20,5 +20,11 @@ class Item {
   final String color;
   final String imageurl;
 
-  Item({required this.id, required this.name, required this.desc, required this.price, required this.color, required this.imageurl});
+  Item(
+      {required this.id,
+      required this.name,
+      required this.desc,
+      required this.price,
+      required this.color,
+      required this.imageurl});
 }
