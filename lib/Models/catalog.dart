@@ -1,15 +1,5 @@
 class CatalogModel {
-  static List<Item> items = [
-    Item(
-      id: 1,
-      name: "iphone",
-      desc: "Apple iphone 14",
-      price: 900,
-      color: "#33505a",
-      imageurl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FbfqM4ny-rcFMptYNGgfquGo7LFzNjd4JQ&usqp=CAU",
-    ),
-  ];
+  static List<Item> items = [];
 }
 
 class Item {
