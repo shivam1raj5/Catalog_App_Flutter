@@ -14,7 +14,7 @@
             "desc": "Apple Earbuds 17",
             "price": 400,
             "color": "#33509a",
-            "imageurl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2_AV1?wid=890&hei=890&fmt=jpeg&qlt=95&.v=1551489684370"
+            "imageurl": "https://www.shutterstock.com/image-photo/moscow-russia-october-07-2017-260nw-729669049.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "desc": "Apple Glasses 7",
             "price": 800,
             "color": "#33515a",
-            "imageurl": "https://miro.medium.com/max/1400/1*ephLSqSzQYLvb7faDwzRbw.jpeg"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwIvDCfi0nfW_JXrz37XS3JbjfOlL52NDJyw&usqp=CAU"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "desc": "Apple ipad",
             "price": 1100,
             "color": "#3205a",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgQu_ZEJV0P2Y-2s9yeWR4xlxlBQdfcS3qQ&usqp=CAU"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbclaDst2H4qmqd_XHPmbFl_HhDQpGgtXxKQ&usqp=CAU"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "desc": "Apple CPU",
             "price": 1200,
             "color": "#38505a",
-            "imageurl": "https://img.mensxp.com/media/content/2020/Sep/Expensive-Products-One-Can-Buy-From-Apple-Store-1400x653_5f6b2470add8d.jpeg"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJKjCllD43zK64OlL4N-r8JmN2G5h4tkHvOT013q8p61N_dTufRUfr_jN2QzWYfVdJ2U&usqp=CAU"
         },
         {
             "id": 6,
@@ -78,7 +78,7 @@
             "desc": "Apple Watch",
             "price": 400,
             "color": "#23505a",
-            "imageurl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FKMY3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1647901076757"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjEyZbx09VyOZWua7OVjkiGCC_YIePNsBNYZWFQA4teVC10fOSLeTJTWUGPTKZ-KmUWbs&usqp=CAU"
         }
 
     ]
