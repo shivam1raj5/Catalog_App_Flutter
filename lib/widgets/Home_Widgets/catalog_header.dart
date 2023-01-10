@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:velocity_x/velocity_x.dart';
-import '../themes.dart';
-import 'package:flutter_application_1/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class CatalogHeader extends StatelessWidget {
