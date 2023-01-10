@@ -6,7 +6,8 @@
             "desc": "Apple iphone 14",
             "price": 900,
             "color": "#33505a",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FbfqM4ny-rcFMptYNGgfquGo7LFzNjd4JQ&usqp=CAU"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FbfqM4ny-rcFMptYNGgfquGo7LFzNjd4JQ&usqp=CAU",
+            "details": "The iPhone is a smartphone made by Apple that combines a computer, iPod, digital camera and cellular phone into one device with a touchscreen interface. The iPhone runs the iOS operating system, and in 2021 when the iPhone 13 was introduced, it offered up to 1 TB of storage and a 12-megapixel camera."
         },
         {
             "id": 2,
@@ -14,7 +15,8 @@
             "desc": "Apple Earbuds 17",
             "price": 400,
             "color": "#33509a",
-            "imageurl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2_AV1?wid=890&hei=890&fmt=jpeg&qlt=95&.v=1551489684370"
+            "imageurl": "https://www.shutterstock.com/image-photo/moscow-russia-october-07-2017-260nw-729669049.jpg",
+            "details": "You can use EarPods (sold separately) to listen to music and videos and to make calls on iPhone. EarPods feature a microphone, volume buttons, and the center button. Use the center button to answer and end calls, control audio and video playback, and use Siri, even when iPhone is locked."
         },
         {
             "id": 3,
@@ -22,7 +24,8 @@
             "desc": "Apple Glasses 7",
             "price": 800,
             "color": "#33515a",
-            "imageurl": "https://miro.medium.com/max/1400/1*ephLSqSzQYLvb7faDwzRbw.jpeg"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwIvDCfi0nfW_JXrz37XS3JbjfOlL52NDJyw&usqp=CAU",
+            "details": "According to a Bloomberg (opens in new tab) report, the Apple AR Glasses will bring information from your phone to your face. Specifically, the eyewear are expected to synchronize with a wearer's iPhone to display things such as texts, emails, maps, and games over the user's field of vision."
         },
         {
             "id": 4,
@@ -30,7 +33,8 @@
             "desc": "Apple ipad",
             "price": 1100,
             "color": "#3205a",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgQu_ZEJV0P2Y-2s9yeWR4xlxlBQdfcS3qQ&usqp=CAU"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbclaDst2H4qmqd_XHPmbFl_HhDQpGgtXxKQ&usqp=CAU",
+            "details": "The iPad is a touchscreen tablet PC made by Apple . The original iPad debuted in 2010. Apple has three iPad product lines: iPad, iPad mini and iPad Pro. All models are available in silver, gray and gold. They run Apple's iOS mobile operating system and have Wi-Fi connectivity with optional 4G capabilities."
         },
         {
             "id": 5,
@@ -38,7 +42,8 @@
             "desc": "Apple CPU",
             "price": 1200,
             "color": "#38505a",
-            "imageurl": "https://img.mensxp.com/media/content/2020/Sep/Expensive-Products-One-Can-Buy-From-Apple-Store-1400x653_5f6b2470add8d.jpeg"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJKjCllD43zK64OlL4N-r8JmN2G5h4tkHvOT013q8p61N_dTufRUfr_jN2QzWYfVdJ2U&usqp=CAU",
+            "details": "Apple silicon is a series of system on a chip and system in a package processors designed by Apple Inc., mainly using the ARM architecture. It is the basis of most new Mac computers as well as iPhone, iPad, iPod Touch, Apple TV, and Apple Watch, and of products such as AirPods, HomePod, HomePod Mini, and AirTag."
         },
         {
             "id": 6,
@@ -46,7 +51,8 @@
             "desc": "Apple Calculator",
             "price": 100,
             "color": "#53505a",
-            "imageurl": "https://external-preview.redd.it/6xKHzG3dAB9TewT3PjBWDaWDvKbw1aBDgVS_G2fw9L4.jpg?width=640&crop=smart&auto=webp&s=38e1c56e7c0c2a561d5d44d22c10027e1c38cfb0"
+            "imageurl": "https://external-preview.redd.it/6xKHzG3dAB9TewT3PjBWDaWDvKbw1aBDgVS_G2fw9L4.jpg?width=640&crop=smart&auto=webp&s=38e1c56e7c0c2a561d5d44d22c10027e1c38cfb0",
+            "details": "Calculator is a basic calculator application made by Apple Inc. and bundled with its macOS, iOS, and watchOS operating systems. It has three modes: basic, scientific, and programmer. The basic mode includes a number pad, buttons for adding, subtracting, multiplying, and dividing, as well as memory keys."
         },
         {
             "id": 7,
@@ -54,7 +60,8 @@
             "desc": "Apple Mackbook",
             "price": 1300,
             "color": "#33507a",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5kTlmdBa5i1sBWRsMEwtse913Ze75MVkFtmRzDNMmSy_twBJP_5i1XmevpU4s1S6apU&usqp=CAU"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5kTlmdBa5i1sBWRsMEwtse913Ze75MVkFtmRzDNMmSy_twBJP_5i1XmevpU4s1S6apU&usqp=CAU",
+            "details": "The MacBook is Apple's third laptop computer family, introduced in 2006. Prior laptops were the PowerBook and iBook. In 2015, new MacBooks featured Apple's Retina Display and higher resolutions, as well as the Force Touch trackpad that senses different pressure levels."
         },
         {
             "id": 8,
@@ -62,7 +69,8 @@
             "desc": "Apple Router",
             "price": 200,
             "color": "#39505a",
-            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Apple_AirPort_Express.jpg/200px-Apple_AirPort_Express.jpg"
+            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Apple_AirPort_Express.jpg/200px-Apple_AirPort_Express.jpg",
+            "details": "Enjoy solid WiFi performance at your home with this compact and beautifully designed AirPort Extreme router from Apple. The router uses three-stream 802.11ac technology that takes your regular WiFi speeds to new extremes."
         },
         {
             "id": 9,
@@ -70,7 +78,8 @@
             "desc": "Apple Camera",
             "price": 150,
             "color": "#34505a",
-            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRThLugPy1cCajZ_gYqV9hzP7Gs27_kMPAdwA&usqp=CAU"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRThLugPy1cCajZ_gYqV9hzP7Gs27_kMPAdwA&usqp=CAU",
+            "details": "Rated 84% in terms of camera performance, Google Pixel is an ideal purchase for consumers looking to buy the best camera phones. This phone features a 12.2MP dual pixel rear camera with a 1.4-micrometre pixel width."
         },
         {
             "id": 0,
@@ -78,7 +87,8 @@
             "desc": "Apple Watch",
             "price": 400,
             "color": "#23505a",
-            "imageurl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FKMY3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1647901076757"
+            "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjEyZbx09VyOZWua7OVjkiGCC_YIePNsBNYZWFQA4teVC10fOSLeTJTWUGPTKZ-KmUWbs&usqp=CAU",
+            "details": "It's the ultimate device for a healthy life. Apple Watch can do what your other devices can't because it's on your wrist. When you wear it, you get a fitness partner that measures all the ways you move, meaningful health insights and a connection to the people and things you care about most."
         }
 
     ]
