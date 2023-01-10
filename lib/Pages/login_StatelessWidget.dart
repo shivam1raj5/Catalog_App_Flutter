@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/routes.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class login_StatelessWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
+      color: context.canvasColor,
         child: SingleChildScrollView(
       child: Column(
         children: [
