@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Pages/cart_page.dart';
 import 'package:flutter_application_1/utils/routes.dart';
 import 'package:flutter_application_1/widgets/themes.dart';
-import 'Pages/Homepage_befor_velocity_x.dart';
 import 'Pages/login_StatelessWidget.dart';
 import 'Pages/login_StatefullWidget.dart';
 import 'Pages/homepage.dart';

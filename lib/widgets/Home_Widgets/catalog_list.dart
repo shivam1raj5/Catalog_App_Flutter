@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Pages/Home_detail_page.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../../Models/catalog.dart';
-import '../themes.dart';
 import 'catalog_image.dart';
 
 class CatalogList extends StatelessWidget {
@@ -14,7 +13,7 @@ class CatalogList extends StatelessWidget {
       shrinkWrap: true,
       itemCount: CatalogModel.items.length,
       itemBuilder: (context, index) {
-        final catalog = CatalogModel.items[index];
+        final catalog = CatalogModel.getByPosition(index);
         return InkWell(
             onTap: () => Navigator.push(
                   context,
@@ -30,9 +29,7 @@ class CatalogList extends StatelessWidget {
 
 class CatalogItem extends StatelessWidget {
   final Item catalog;
-  const CatalogItem({Key? key, required this.catalog})
-      : assert(catalog != null),
-        super(key: key);
+  const CatalogItem({Key? key, required this.catalog}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return VxBox(
