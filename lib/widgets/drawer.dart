@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -7,10 +8,10 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final imageurl =
-        "https://pbs.twimg.com/profile_images/1373939070842236933/UbPwvHgh_400x400.jpg";
+        "https://pbs.twimg.com/profile_images/1611097986515488768/6tHK9XZT_400x400.jpg";
     return Drawer(
       child: Container(
-        //color: Colors.deepPurple,
+        color: context.cardColor,
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
@@ -28,45 +29,45 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(
                 CupertinoIcons.home,
-                color: Colors.black,
+                color: context.accentColor,
               ),
               title: Text(
                 "Home",
                 textScaleFactor: 1.4,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(color: context.accentColor),
               ),
             ),
             ListTile(
               leading: Icon(
                 CupertinoIcons.profile_circled,
-                color: Colors.black,
+                color: context.accentColor,
               ),
               title: Text(
                 "Profile",
                 textScaleFactor: 1.4,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(color: context.accentColor),
               ),
             ),
             ListTile(
               leading: Icon(
                 CupertinoIcons.bell_fill,
-                color: Colors.black,
+                color: context.accentColor,
               ),
               title: Text(
                 "Notification",
                 textScaleFactor: 1.4,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(color: context.accentColor),
               ),
             ),
             ListTile(
               leading: Icon(
                 CupertinoIcons.mail,
-                color: Colors.black,
+                color: context.accentColor,
               ),
               title: Text(
                 "Email",
                 textScaleFactor: 1.4,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(color: context.accentColor),
               ),
             ),
           ],

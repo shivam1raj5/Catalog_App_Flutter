@@ -7,7 +7,6 @@ import 'package:flutter_application_1/widgets/themes.dart';
 import '../Models/catalog.dart';
 import '../utils/routes.dart';
 import '../widgets/ItemWidget.dart';
-import '../widgets/drawer.dart';
 import '../widgets/Home_Widgets/catalog_header.dart';
 import '../widgets/Home_Widgets/catalog_list.dart';
 
@@ -39,11 +38,15 @@ class _homepageState extends State<homepage> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: MyTheme.creamColor,
+        backgroundColor: context.canvasColor,
         floatingActionButton: FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, MyRoutes.CartPage),
-          backgroundColor: MyTheme.darkBluishColor,
-          child: Icon(CupertinoIcons.cart),
+          // ignore: deprecated_member_use
+          backgroundColor: context.theme.buttonColor,
+          child: Icon(
+            CupertinoIcons.cart,
+            color: Colors.white,
+          ),
         ),
         body: SafeArea(
           child: Container(
