@@ -1,7 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Models/catalog.dart';
 
 class CartModel {
+  //Make Singlton
+  static final cartModel = CartModel._internal();
+  CartModel._internal();
+  factory CartModel() => cartModel;
+
   //catalog field
   late CatalogModel _catalog;
 
@@ -12,7 +16,6 @@ class CartModel {
   CatalogModel get catalog => _catalog;
 
   set Catalog(CatalogModel newCatalog) {
-    assert(newCatalog != null);
     _catalog = newCatalog;
   }
 
