@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:html';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -21,6 +20,13 @@ class homepage extends StatefulWidget {
 class _homepageState extends State<homepage> {
   final int age = 20;
 
+  /*For fetch items from internet add http version in pubspec.ymal
+    add this line here 
+
+    final url = "ab/dg/gf";
+    
+  */
+
   @override
   void initState() {
     super.initState();
@@ -29,6 +35,18 @@ class _homepageState extends State<homepage> {
 
   loadData() async {
     await Future.delayed(Duration(seconds: 1));
+
+    /* Comment out this line 
+
+        final catalogJson =
+        await rootBundle.loadString("assets/Files/catalog.json");
+
+        and add this line
+
+        final response = await http.get(Uri.parse(url));
+        final catalogJson = response.body;
+    */
+
     final catalogJson =
         await rootBundle.loadString("assets/Files/catalog.json");
     final decodedData = jsonDecode(catalogJson);
@@ -54,7 +72,7 @@ class _homepageState extends State<homepage> {
               color: Colors.white,
             ),
           ).badge(
-              color: Vx.red500,
+              color: Vx.white,
               size: 22,
               count: _cart?.items.length,
               textStyle: TextStyle(

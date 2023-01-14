@@ -48,14 +48,19 @@ class HomeDetailPage extends StatelessWidget {
             child: Container(
               color: context.cardColor,
               width: context.screenWidth,
-              child: Column(
-                children: [
-                  catalog.name.text.xl4.color(context.accentColor).bold.make(),
-                  catalog.desc.text.textStyle(context.captionStyle).xl.make(),
-                  10.heightBox,
-                  catalog.details.text.xl.make().pLTRB(32, 48, 32, 32),
-                ],
-              ).py64(),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    catalog.name.text.xl4
+                        .color(context.accentColor)
+                        .bold
+                        .make(),
+                    catalog.desc.text.textStyle(context.captionStyle).xl.make(),
+                    10.heightBox,
+                    catalog.details.text.xl.make().pLTRB(32, 48, 32, 32),
+                  ],
+                ).py64(),
+              ),
             ),
           ))
         ]),
