@@ -64,7 +64,7 @@ class _homepageState extends State<homepage> {
         floatingActionButton: VxBuilder(
           mutations: {AddMutation, RemoveMutation},
           builder: (context, _, __) => FloatingActionButton(
-            onPressed: () => Navigator.pushNamed(context, MyRoutes.CartPage),
+            onPressed: () => context.vxNav.push(Uri.parse(MyRoutes.CartPage)),
             // ignore: deprecated_member_use
             backgroundColor: context.theme.buttonColor,
             child: Icon(
