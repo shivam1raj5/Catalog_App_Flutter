@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/utils/routes.dart';
 import 'package:flutter_application_1/widgets/Home_Widgets/Add_To_Cart.dart';
 import 'package:velocity_x/velocity_x.dart';
-
-import 'package:flutter_application_1/Pages/Home_detail_page.dart';
 
 import '../../Models/catalog.dart';
 import 'catalog_image.dart';
@@ -21,13 +20,9 @@ class CatalogList extends StatelessWidget {
             itemBuilder: (context, index) {
               final catalog = CatalogModel.items[index];
               return InkWell(
-                  onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) =>
-                              HomeDetailPage(catalog: catalog),
-                        ),
-                      ),
+                  onTap: () => context.vxNav.push(
+                      Uri.parse(MyRoutes.homeDetailsRoute),
+                      params: catalog),
                   child: CatalogItem(catalog: catalog));
             },
           )
@@ -37,13 +32,9 @@ class CatalogList extends StatelessWidget {
             itemBuilder: (context, index) {
               final catalog = CatalogModel.items[index];
               return InkWell(
-                  onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) =>
-                              HomeDetailPage(catalog: catalog),
-                        ),
-                      ),
+                  onTap: () => context.vxNav.push(
+                      Uri.parse(MyRoutes.homeDetailsRoute),
+                      params: catalog),
                   child: CatalogItem(catalog: catalog));
             },
           );
