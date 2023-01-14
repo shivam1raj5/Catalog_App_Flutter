@@ -19,7 +19,10 @@ class _login_StatefullWidgetState extends State<login_StatefullWidget> {
         ChangeButton = true;
       });
       await Future.delayed(Duration(seconds: 1));
-      Navigator.pushNamed(context, MyRoutes.homeRoute);
+      await context.vxNav.push(Uri.parse(MyRoutes.homeRoute));
+      setState(() {
+        ChangeButton = false;
+      });
     }
   }
 
