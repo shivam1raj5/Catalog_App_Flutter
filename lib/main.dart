@@ -19,6 +19,7 @@ class Myapp extends StatelessWidget {
       //home: Homepage(),
       themeMode: ThemeMode.light,
       theme: MyTheme.lightTheme(context),
+      debugShowCheckedModeBanner: false,
       darkTheme: MyTheme.darkTheme(context),
       routes: {
         "/": (context) => homepage(), //Homepage_befor_velocity_x(),
