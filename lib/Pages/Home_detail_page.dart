@@ -1,4 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Core/store.dart';
+import 'package:flutter_application_1/Models/cart.dart';
+import 'package:flutter_application_1/utils/routes.dart';
 import 'package:flutter_application_1/widgets/Home_Widgets/Add_To_Cart.dart';
 
 import 'package:velocity_x/velocity_x.dart';
@@ -14,10 +18,30 @@ class HomeDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final _cart = (VxState.store as MyStore).cart;
     return Scaffold(
       appBar: AppBar(
           //  backgroundColor: Colors.transparent,
           ),
+      floatingActionButton: VxBuilder(
+        mutations: {AddMutation, RemoveMutation},
+        builder: (context, _, __) => FloatingActionButton(
+          onPressed: () => context.vxNav.push(Uri.parse(MyRoutes.CartPage)),
+          // ignore: deprecated_member_use
+          backgroundColor: context.theme.buttonColor,
+          child: Icon(
+            CupertinoIcons.cart,
+            color: Colors.white,
+          ),
+        ).badge(
+            color: Vx.white,
+            size: 22,
+            count: _cart?.items.length,
+            textStyle: TextStyle(
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+            )),
+      ),
       backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
         color: context.cardColor,
