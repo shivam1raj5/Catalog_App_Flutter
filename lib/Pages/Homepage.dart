@@ -59,7 +59,7 @@ class _homepageState extends State<homepage> {
   Widget build(BuildContext context) {
     final _cart = (VxState.store as MyStore).cart;
     return Scaffold(
-      appBar: AppBar(title: "CATALOG  APPLICATION".text.purple900.bold.make()),
+      appBar: AppBar(title: "FevBazaar".text.purple900.bold.make()),
       backgroundColor: context.canvasColor,
       floatingActionButton: VxBuilder(
         mutations: {AddMutation, RemoveMutation},
