@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Core/store.dart';
 import 'package:flutter_application_1/Pages/Home_detail_page.dart';
 import 'package:flutter_application_1/Pages/cart_page.dart';
+import 'package:flutter_application_1/Pages/welcome_page.dart';
 import 'package:flutter_application_1/utils/routes.dart';
 import 'package:flutter_application_1/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -26,14 +27,17 @@ class Myapp extends StatelessWidget {
       darkTheme: MyTheme.darkTheme(context),
       routeInformationParser: VxInformationParser(),
       routerDelegate: VxNavigator(routes: {
-        "/": (_, __) => MaterialPage(child: login_StatefullWidget()),
+        "/": (_, __) => MaterialPage(child: welcome_page()),
         MyRoutes.homeRoute: (_, __) =>
             MaterialPage(child: homepage()), //Homepage_befor_velocity_x(),
+        MyRoutes.loginRoutes_2: (_, __) =>
+            MaterialPage(child: login_StatefullWidget(context)),
         MyRoutes.homeDetailsRoute: (_, params) => MaterialPage(
                 child: HomeDetailPage(
               catalog: params,
             )),
-        MyRoutes.loginRoutes_2: (_, __) => MaterialPage(child: homepage()),
+        MyRoutes.loginRoutes_2: (_, __) =>
+            MaterialPage(child: login_StatefullWidget(context)),
         MyRoutes.loginRoutes_1: (_, __) =>
             MaterialPage(child: login_StatelessWidget()),
         MyRoutes.CartPage: (_, __) => MaterialPage(child: CartPage()),

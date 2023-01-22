@@ -4,6 +4,8 @@ import 'package:velocity_x/velocity_x.dart';
 
 // ignore: camel_case_types, use_key_in_widget_constructors
 class login_StatefullWidget extends StatefulWidget {
+  login_StatefullWidget(BuildContext context);
+
   @override
   State<login_StatefullWidget> createState() => _login_StatefullWidgetState();
 }
@@ -38,11 +40,11 @@ class _login_StatefullWidgetState extends State<login_StatefullWidget> {
                 Image.asset(
                   "assets/images/undraw_Engineer.png",
                   fit: BoxFit.contain,
-                  height: 500,
+                  height: 430,
                   width: 1000,
                 ),
                 const SizedBox(
-                  height: 30.0,
+                  height: 25.0,
                 ),
                 Text(
                   "Welcome $name",
@@ -55,8 +57,8 @@ class _login_StatefullWidgetState extends State<login_StatefullWidget> {
                   height: 25.0,
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 2.0, horizontal: 280.0),
+                  padding:
+                      EdgeInsets.symmetric(vertical: 2.0, horizontal: 100.0),
                   child: Column(
                     children: [
                       TextFormField(
