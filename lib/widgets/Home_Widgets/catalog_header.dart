@@ -10,7 +10,7 @@ class CatalogHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        "FevBazaar"
+        "Catalog App"
             .text
             .xl5
             .bold

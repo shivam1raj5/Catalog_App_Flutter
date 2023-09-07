@@ -35,7 +35,7 @@ class _Homepage_befor_velocity_xState extends State<Homepage_befor_velocity_x> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("FevBazaar")),
+      appBar: AppBar(title: const Text("Catalog App")),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: (CatalogModel.items.isNotEmpty)
