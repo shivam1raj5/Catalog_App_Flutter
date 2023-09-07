@@ -63,7 +63,7 @@ class HomeDetailPage extends StatelessWidget {
                   tag: Key(catalog.id.toString()),
                   child: Image.network(catalog.imageurl))
               .p16()
-              .wh(300, 250),
+              .wh(301, 250),
           Expanded(
               child: VxArc(
             height: 30.0,
