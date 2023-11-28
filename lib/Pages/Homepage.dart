@@ -66,7 +66,7 @@ class _homepageState extends State<homepage> {
         builder: (context, _, __) => FloatingActionButton(
           onPressed: () => context.vxNav.push(Uri.parse(MyRoutes.CartPage)),
           // ignore: deprecated_member_use
-          backgroundColor: context.theme.buttonColor,
+          backgroundColor: context.theme.colorScheme.secondary,
           child: Icon(
             CupertinoIcons.cart,
             color: Colors.white,

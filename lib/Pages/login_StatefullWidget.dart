@@ -111,7 +111,7 @@ class _login_StatefullWidgetState extends State<login_StatefullWidget> {
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                             // ignore: deprecated_member_use
-                            color: context.theme.buttonColor,
+                            color: context.theme.colorScheme.secondary,
                             borderRadius:
                                 BorderRadius.circular(ChangeButton ? 50 : 80),
                           ),

@@ -53,7 +53,7 @@ class welcome_page extends StatelessWidget {
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                             // ignore: deprecated_member_use
-                            color: context.theme.buttonColor,
+                            color: context.theme.colorScheme.secondary,
                           ),
                           child: const Text(
                             "Login",
